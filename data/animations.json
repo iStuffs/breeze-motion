@@ -1,0 +1,67 @@
+[
+  {
+    "name": "bounce",
+    "status": null,
+    "category": "Attention seaker"
+  },
+  {
+    "name": "flash",
+    "status": null,
+    "category": "Attention seaker"
+  },
+  {
+    "name": "headShake",
+    "status": null,
+    "category": "Attention seaker"
+  },
+  {
+    "name": "heartBeat",
+    "status": null,
+    "category": "Attention seaker"
+  },
+  {
+    "name": "jello",
+    "status": null,
+    "category": "Attention seaker"
+  },
+  {
+    "name": "pulse",
+    "status": null,
+    "category": "Attention seaker"
+  },
+  {
+    "name": "rubberBand",
+    "status": null,
+    "category": "Attention seaker"
+  },
+  {
+    "name": "shake",
+    "status": null,
+    "category": "Attention seaker"
+  },
+  {
+    "name": "shakeX",
+    "status": null,
+    "category": "Attention seaker"
+  },
+  {
+    "name": "shakeY",
+    "status": null,
+    "category": "Attention seaker"
+  },
+  {
+    "name": "swing",
+    "status": null,
+    "category": "Attention seaker"
+  },
+  {
+    "name": "tada",
+    "status": null,
+    "category": "Attention seaker"
+  },
+  {
+    "name": "wobble",
+    "status": null,
+    "category": "Attention seaker"
+  }
+]
