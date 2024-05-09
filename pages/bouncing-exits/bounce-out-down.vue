@@ -1,16 +1,16 @@
 <template>
   <div>
     <BreakCrumbs />
-    <h1>Bounce in up animation</h1>
+    <h1>Bounce out down animation</h1>
     <div class="compare-grid">
-      <SimpleBox class="animate__animated animate__bounceInUp animate__infinite" />
+      <SimpleBox class="animate__animated animate__bounceOutDown animate__infinite" />
       <SimpleBox ref="box" id="js-box"/>
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-import keyframes from '../../animations/keyframes/bouncingEntrances/bounceInUp'
+import keyframes from '../../animations/keyframes/bouncingExits/bounceOutDown'
 
 const box = ref(null)
 

@@ -7,7 +7,7 @@
       <li><NuxtLink to="/back-entrances">Back entrances</NuxtLink></li>
       <li><NuxtLink to="/back-exits">Back exits</NuxtLink></li>
       <li><NuxtLink to="/bouncing-entrances">Bouncing entrances</NuxtLink></li>
-      <li><NuxtLink to="">Bouncing exits</NuxtLink></li>
+      <li><NuxtLink to="/bouncing-exits">Bouncing exits</NuxtLink></li>
       <li><NuxtLink to="">Fading entrances</NuxtLink></li>
       <li><NuxtLink to="">Fading exits</NuxtLink></li>
       <li><NuxtLink to="">Flippers</NuxtLink></li>
