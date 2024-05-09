@@ -1,20 +1,19 @@
-@keyframes backOutDown {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/back_exits/backOutDown.css
 
-  20% {
-    transform: translateY(0px) scale(0.7);
-    opacity: 0.7;
+const  backOutDown = [
+  {
+    transform: `scale(1)`,
+    opacity: 1,
+  },
+  {
+    transform: `translateY(0px) scale(0.7)`,
+    opacity: 0.7,
+    offset: 0.2,
+  },
+  {
+    transform: `translateY(700px) scale(0.7)`,
+    opacity: 0.7,
   }
+]
 
-  100% {
-    transform: translateY(700px) scale(0.7);
-    opacity: 0.7;
-  }
-}
-
-.backOutDown {
-  animation-name: backOutDown;
-}
+export default backOutDown

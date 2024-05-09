@@ -6,11 +6,11 @@ A portage of animate.css to web animation API.
 
 ### Status
 
-Keyframes: (13/98)
+Keyframes: (21/98)
 
 - [x] Attention seekers (13/13)
-- [ ] Back entrances (0/4)
-- [ ] Back exits (0/4)
+- [x] Back entrances (4/4)
+- [x] Back exits (4/4)
 - [ ] Bouncing entrances (0/5)
 - [ ] Bouncing exits (0/5)
 - [ ] Fading entrances (0/13)
