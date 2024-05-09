@@ -1,5 +1,8 @@
 <template>
   <ol v-if="paths.length > 0" class="bread-crumbs">
+    <li>
+    <NuxtLink to="/">Home</NuxtLink>
+    </li>
     <li v-for="path in paths">
     <NuxtLink :to="path.path">{{ path.label }}</NuxtLink>
     </li>

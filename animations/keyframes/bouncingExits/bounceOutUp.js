@@ -1,20 +1,23 @@
-@keyframes bounceOutUp {
-  20% {
-    transform: translate3d(0, -10px, 0) scaleY(0.985);
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/bouncing_exits/bounceOutUp.css
 
-  40%,
-  45% {
-    opacity: 1;
-    transform: translate3d(0, 20px, 0) scaleY(0.9);
+const bounceOutUp = [
+  {
+    transform: `translate3d(0, -10px, 0) scaleY(0.985)`,
+  },
+  {
+    opacity: 1,
+    transform: `translate3d(0, 20px, 0) scaleY(0.9)`,
+    offset: 0.4,
+  },
+  {
+    opacity: 1,
+    transform: `translate3d(0, 20px, 0) scaleY(0.9)`,
+    offset: 0.45,
+  },
+  {
+    opacity: 0,
+    transform: `translate3d(0, -2000px, 0) scaleY(3)`,
   }
+]
 
-  to {
-    opacity: 0;
-    transform: translate3d(0, -2000px, 0) scaleY(3);
-  }
-}
-
-.bounceOutUp {
-  animation-name: bounceOutUp;
-}
+export default bounceOutUp
