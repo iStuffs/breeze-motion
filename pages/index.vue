@@ -1,9 +1,10 @@
 <template>
   <div>
     <h1>Animate.css portage to Web animation API</h1>
+    <p>Based on <NuxtLink to="https://github.com/animate-css/animate.css">Animate.css v4.1.1</NuxtLink> </p>
     <ul>
       <li><NuxtLink to="/attention-seekers">Attention seekers</NuxtLink></li>
-      <li><NuxtLink to="">Back entrances</NuxtLink></li>
+      <li><NuxtLink to="/back-entrances">Back entrances</NuxtLink></li>
       <li><NuxtLink to="">Back exits</NuxtLink></li>
       <li><NuxtLink to="">Bouncing entrances</NuxtLink></li>
       <li><NuxtLink to="">Bouncing exits</NuxtLink></li>
@@ -27,5 +28,7 @@
 </script>
 
 <style>
-
+html {
+  font-family: system-ui, sans-serif;
+}
 </style>

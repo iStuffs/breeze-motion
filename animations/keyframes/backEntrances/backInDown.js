@@ -1,20 +1,19 @@
-@keyframes backInDown {
-  0% {
-    transform: translateY(-1200px) scale(0.7);
-    opacity: 0.7;
-  }
+//https://github.com/animate-css/animate.css/blob/main/source/back_entrances/backInDown.css
 
-  80% {
-    transform: translateY(0px) scale(0.7);
-    opacity: 0.7;
+const backInDown = [
+  {
+    transform: `translateY(-1200px) scale(0.7)`,
+    opacity: 0.7,
+  },
+  {
+    transform: `translateY(0px) scale(0.7)`,
+    opacity: 0.7,
+    offset: 0.8,
+  },
+  {
+    transform: `scale(1)`,
+    opacity: 1,
   }
+]
 
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-.backInDown {
-  animation-name: backInDown;
-}
+export default backInDown

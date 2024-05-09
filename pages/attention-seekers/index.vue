@@ -1,5 +1,6 @@
 <template>
   <div>
+    <BreakCrumbs />
     <h1>Attention seaker</h1>
     <h2>Status</h2>
     <ul>

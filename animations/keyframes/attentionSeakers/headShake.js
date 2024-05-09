@@ -1,3 +1,5 @@
+// https://github.com/animate-css/animate.css/blob/main/source/attention_seekers/headShake.css
+
 const headShake  = [
   {
     transform: `translateX(0)`,
