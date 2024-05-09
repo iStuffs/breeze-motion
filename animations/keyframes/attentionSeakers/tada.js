@@ -1,3 +1,5 @@
+// https://github.com/animate-css/animate.css/blob/main/source/attention_seekers/tada.css
+
 const tada = [
   {
     transform: `scale3d(1, 1, 1)`,

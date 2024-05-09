@@ -1,3 +1,5 @@
+// https://github.com/animate-css/animate.css/blob/main/source/attention_seekers/pulse.css
+
 const pulse = [
   {
     transform: `scale3d(1, 1, 1)`,

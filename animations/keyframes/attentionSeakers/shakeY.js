@@ -1,3 +1,5 @@
+// https://github.com/animate-css/animate.css/blob/main/source/attention_seekers/shakeY.css
+
 const shakeY  = [
   {
     transform: `translate3d(0, 0, 0)`,

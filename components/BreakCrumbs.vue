@@ -1,5 +1,5 @@
 <template>
-  <ol v-if="paths.length > 0">
+  <ol v-if="paths.length > 0" class="bread-crumbs">
     <li v-for="path in paths">
     <NuxtLink :to="path.path">{{ path.label }}</NuxtLink>
     </li>
@@ -22,5 +22,19 @@
 </script>
 
 <style>
-
+.bread-crumbs {
+  list-style: none;
+  padding-inline: 0;
+  display: flex;
+}
+.bread-crumbs li + li::before {
+  content: '>';
+  margin-inline: 0.5rem;
+}
+.bread-crumbs  a {
+  text-decoration: none;
+}
+.bread-crumbs  a:hover {
+  text-decoration: underline;
+}
 </style>

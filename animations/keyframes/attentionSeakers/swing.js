@@ -1,3 +1,5 @@
+// https://github.com/animate-css/animate.css/blob/main/source/attention_seekers/swing.css
+
 const swing = [
   {
     transformOrigin: 'top center',

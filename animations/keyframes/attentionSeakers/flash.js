@@ -1,3 +1,5 @@
+// https://github.com/animate-css/animate.css/blob/main/source/attention_seekers/flash.css
+
 const flash = [
   {
     opacity: 1,
