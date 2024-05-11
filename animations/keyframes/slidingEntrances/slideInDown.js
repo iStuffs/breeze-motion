@@ -1,14 +1,13 @@
-@keyframes slideInDown {
-  from {
-    transform: translate3d(0, -100%, 0);
-    visibility: visible;
-  }
+//https://github.com/animate-css/animate.css/blob/main/source/sliding_entrances/slideInDown.css
 
-  to {
-    transform: translate3d(0, 0, 0);
+const slideInDown = [
+  {
+    transform: `translate3d(0, -100%, 0)`,
+    visibility: `visible`,
+  },
+  {
+    transform: `translate3d(0, 0, 0)`,
   }
-}
+]
 
-.slideInDown {
-  animation-name: slideInDown;
-}
+export default slideInDown
