@@ -1,15 +1,14 @@
-@keyframes fadeInRightBig {
-  from {
-    opacity: 0;
-    transform: translate3d(2000px, 0, 0);
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/fading_entrances/fadeInRightBig.css
 
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
+const fadeInRightBig =[
+  {
+    opacity: 0,
+    transform: `translate3d(2000px, 0, 0)`,
+  },
+  {
+    opacity: 1,
+    transform: `translate3d(0, 0, 0)`,
   }
-}
+]
 
-.fadeInRightBig {
-  animation-name: fadeInRightBig;
-}
+export default fadeInRightBig

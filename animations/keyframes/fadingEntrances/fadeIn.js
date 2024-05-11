@@ -1,13 +1,12 @@
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
+//https://github.com/animate-css/animate.css/blob/main/source/fading_entrances/fadeIn.css
 
-  to {
-    opacity: 1;
+const fadeIn = [
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
   }
-}
+]
 
-.fadeIn {
-  animation-name: fadeIn;
-}
+export default fadeIn

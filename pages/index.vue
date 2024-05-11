@@ -8,17 +8,17 @@
       <li><NuxtLink to="/back-exits">Back exits</NuxtLink></li>
       <li><NuxtLink to="/bouncing-entrances">Bouncing entrances</NuxtLink></li>
       <li><NuxtLink to="/bouncing-exits">Bouncing exits</NuxtLink></li>
-      <li><NuxtLink to="">Fading entrances</NuxtLink></li>
-      <li><NuxtLink to="">Fading exits</NuxtLink></li>
-      <li><NuxtLink to="">Flippers</NuxtLink></li>
-      <li><NuxtLink to="">Lightspeed</NuxtLink></li>
-      <li><NuxtLink to="">Rotating entrances</NuxtLink></li>
-      <li><NuxtLink to="">Rotating exits</NuxtLink></li>
-      <li><NuxtLink to="">Sliding entrances</NuxtLink></li>
-      <li><NuxtLink to="">Sliding exits</NuxtLink></li>
-      <li><NuxtLink to="">Specials</NuxtLink></li>
-      <li><NuxtLink to="">Zooming entrances</NuxtLink></li>
-      <li><NuxtLink to="">Zooming exits</NuxtLink></li>
+      <li><NuxtLink to="/fading-entrances">Fading entrances</NuxtLink></li>
+      <li><NuxtLink to="/fading-exits">Fading exits</NuxtLink></li>
+      <li><NuxtLink to="/flippers">Flippers</NuxtLink></li>
+      <li><NuxtLink to="/lightspeed">Lightspeed</NuxtLink></li>
+      <li><NuxtLink to="/rotating-entrances">Rotating entrances</NuxtLink></li>
+      <li><NuxtLink to="/rotating-exits">Rotating exits</NuxtLink></li>
+      <li><NuxtLink to="/sliding-entrances">Sliding entrances</NuxtLink></li>
+      <li><NuxtLink to="/sliding-exits">Sliding exits</NuxtLink></li>
+      <li><NuxtLink to="/specials">Specials</NuxtLink></li>
+      <li><NuxtLink to="/zooming-entrances">Zooming entrances</NuxtLink></li>
+      <li><NuxtLink to="/zooming-exits">Zooming exits</NuxtLink></li>
     </ul>
   </div>
 </template>

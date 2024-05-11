@@ -1,15 +1,14 @@
-@keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    transform: translate3d(-100%, 0, 0);
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/fading_entrances/fadeInLeft.css
 
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
+const fadeInLeft = [
+  {
+    opacity: 0,
+    transform: `translate3d(-100%, 0, 0)`,
+  },
+  {
+    opacity: 1,
+    transform: `translate3d(0, 0, 0)`,
   }
-}
+]
 
-.fadeInLeft {
-  animation-name: fadeInLeft;
-}
+export default fadeInLeft

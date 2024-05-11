@@ -1,15 +1,14 @@
-@keyframes fadeInDownBig {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -2000px, 0);
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/fading_entrances/fadeInDownBig.css
 
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
+const fadeInDownBig = [
+  {
+    opacity: 0,
+    transform: `translate3d(0, -2000px, 0)`,
+  },
+  {
+    opacity: 1,
+    transform: `translate3d(0, 0, 0)`,
   }
-}
+]
 
-.fadeInDownBig {
-  animation-name: fadeInDownBig;
-}
+export default fadeInDownBig
