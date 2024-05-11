@@ -1,15 +1,14 @@
-@keyframes rotateOut {
-  from {
-    opacity: 1;
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/rotating_exits/rotateOut.css
 
-  to {
-    transform: rotate3d(0, 0, 1, 200deg);
-    opacity: 0;
+const rotateOut =[
+  {
+    opacity: 1,
+    transformOrigin: `center`,
+  },
+  {
+    transform: `rotate3d(0, 0, 1, 200deg)`,
+    opacity: 0,
   }
-}
+]
 
-.rotateOut {
-  animation-name: rotateOut;
-  transform-origin: center;
-}
+export default rotateOut

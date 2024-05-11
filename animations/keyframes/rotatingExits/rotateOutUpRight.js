@@ -1,15 +1,15 @@
-@keyframes rotateOutUpRight {
-  from {
-    opacity: 1;
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/rotating_exits/rotateOutUpRight.css
 
-  to {
-    transform: rotate3d(0, 0, 1, 90deg);
-    opacity: 0;
+const rotateOutUpRight =[
+  {
+    opacity: 1,
+    transformOrigin: `right bottom`,
+  },
+  {
+    transform: `rotate3d(0, 0, 1, 90deg)`,
+    transformOrigin: `right bottom`,
+    opacity: 0,
   }
-}
+]
 
-.rotateOutUpRight {
-  animation-name: rotateOutUpRight;
-  transform-origin: right bottom;
-}
+export default rotateOutUpRight

@@ -1,15 +1,15 @@
-@keyframes rotateOutDownLeft {
-  from {
-    opacity: 1;
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/rotating_exits/rotateOutDownLeft.css
 
-  to {
-    transform: rotate3d(0, 0, 1, 45deg);
-    opacity: 0;
+const rotateOutDownLeft =[
+  {
+    opacity: 1,
+    transformOrigin: `left bottom`,
+  },
+  {
+    transform: `rotate3d(0, 0, 1, 45deg)`,
+    transformOrigin: `left bottom`,
+    opacity: 0,
   }
-}
+]
 
-.rotateOutDownLeft {
-  animation-name: rotateOutDownLeft;
-  transform-origin: left bottom;
-}
+export default rotateOutDownLeft
