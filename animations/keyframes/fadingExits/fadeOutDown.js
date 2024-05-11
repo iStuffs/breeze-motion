@@ -1,14 +1,13 @@
-@keyframes fadeOutDown {
-  from {
-    opacity: 1;
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/fading_exits/fadeOutDown.css
 
-  to {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
+const fadeOutDown = [
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    transform: `translate3d(0, 100%, 0)`,
   }
-}
+]
 
-.fadeOutDown {
-  animation-name: fadeOutDown;
-}
+export default fadeOutDown

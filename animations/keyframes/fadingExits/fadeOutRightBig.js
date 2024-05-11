@@ -1,14 +1,13 @@
-@keyframes fadeOutRightBig {
-  from {
-    opacity: 1;
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/fading_exits/fadeOutRightBig.css
 
-  to {
-    opacity: 0;
-    transform: translate3d(2000px, 0, 0);
+const fadeOutRightBig = [
+   {
+    opacity: 1,
+  },
+   {
+    opacity: 0,
+    transform: `translate3d(2000px, 0, 0)`,
   }
-}
+]
 
-.fadeOutRightBig {
-  animation-name: fadeOutRightBig;
-}
+export default fadeOutRightBig
