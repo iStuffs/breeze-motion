@@ -1,30 +1,29 @@
-@keyframes flipInX {
-  from {
-    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
-    animation-timing-function: ease-in;
-    opacity: 0;
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/flippers/flipInX.css
 
-  40% {
-    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
-    animation-timing-function: ease-in;
+const flipInX = [
+  {
+    backfaceVisibility: `visible !important`,
+    transform: `perspective(400px) rotate3d(1, 0, 0, 90deg)`,
+    easing: `ease-in`,
+    opacity: 0,
+  },
+  {
+    transform: `perspective(400px) rotate3d(1, 0, 0, -20deg)`,
+    easing: `ease-in`,
+    offset: 0.4,
+  },
+  {
+    transform: `perspective(400px) rotate3d(1, 0, 0, 10deg)`,
+    opacity: 1,
+    offset: 0.6,
+  },
+  {
+    transform: `perspective(400px) rotate3d(1, 0, 0, -5deg)`,
+    offset: 0.8,
+  },
+  {
+    transform: `perspective(400px)`,
   }
+]
 
-  60% {
-    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
-    opacity: 1;
-  }
-
-  80% {
-    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
-  }
-
-  to {
-    transform: perspective(400px);
-  }
-}
-
-.flipInX {
-  backface-visibility: visible !important;
-  animation-name: flipInX;
-}
+export default flipInX

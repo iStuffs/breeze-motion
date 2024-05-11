@@ -1,34 +1,30 @@
-@keyframes flip {
-  from {
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
-    animation-timing-function: ease-out;
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/flippers/flip.css
 
-  40% {
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -190deg);
-    animation-timing-function: ease-out;
+const flip = [
+  {
+    transform: `perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg)`,
+    ease: `ease-out`,
+    backfaceVisibility: `visible`,
+  },
+  {
+    transform: `perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg)`,
+    easing: `ease-out`,
+    offset: 0.4,
+  },
+  {
+    transform: `perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg)`,
+    easing: `ease-in`,
+    offset: 0.5,
+  },
+  {
+    transform: `perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg)`,
+    easing: `ease-in`,
+    offset: 0.8,
+  },
+  {
+    transform: `perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg)`,
+    easing: `ease-in`,
   }
+]
 
-  50% {
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -170deg);
-    animation-timing-function: ease-in;
-  }
-
-  80% {
-    transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
-      rotate3d(0, 1, 0, 0deg);
-    animation-timing-function: ease-in;
-  }
-
-  to {
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
-    animation-timing-function: ease-in;
-  }
-}
-
-.animated.flip {
-  backface-visibility: visible;
-  animation-name: flip;
-}
+export default flip
