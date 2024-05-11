@@ -1,16 +1,15 @@
-@keyframes rotateIn {
-  from {
-    transform: rotate3d(0, 0, 1, -200deg);
-    opacity: 0;
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/rotating_entrances/rotateIn.css
 
-  to {
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
+const rotateIn = [
+  {
+    transform: `rotate3d(0, 0, 1, -200deg)`,
+    opacity: 0,
+    transformOrigin: `center`,
+  },
+  {
+    transform: `translate3d(0, 0, 0)`,
+    opacity: 1,
   }
-}
+]
 
-.rotateIn {
-  animation-name: rotateIn;
-  transform-origin: center;
-}
+export default rotateIn
