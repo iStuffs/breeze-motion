@@ -1,17 +1,14 @@
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+// https://github.com/animate-css/animate.css/blob/main/source/specials/rollIn.css
 
-@keyframes rollIn {
-  from {
-    opacity: 0;
-    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+const rollIn = [
+  {
+    opacity: 0,
+    transform: `translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg)`,
+  },
+  {
+    opacity: 1,
+    transform: `translate3d(0, 0, 0)`,
   }
+]
 
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-.rollIn {
-  animation-name: rollIn;
-}
+export default rollIn
