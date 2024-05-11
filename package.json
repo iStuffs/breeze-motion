@@ -1,6 +1,26 @@
 {
   "name": "breeze-motion",
   "type": "module",
+  "version": "0.0.1",
+  "main": "./animations/keyframes/index.js",
+  "module": "./animations/keyframes/index.js",
+  "description": "Animate.css keyframes for web animation API",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iStuffs/breeze-motion.git"
+  },
+  "keywords": [
+    "keyframes",
+    "web",
+    "animation",
+    "API"
+  ],
+  "author": "iStuffs - Samuel DIDIER-LAURENT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iStuffs/breeze-motion/issues"
+  },
+  "homepage": "https://github.com/iStuffs/breeze-motion#readme",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
