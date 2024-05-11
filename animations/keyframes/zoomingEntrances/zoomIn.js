@@ -1,14 +1,14 @@
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/zooming_entrances/zoomIn.css
 
-  50% {
-    opacity: 1;
+const zoomIn = [
+  {
+    opacity: 0,
+    transform: `scale3d(0.3, 0.3, 0.3)`,
+  },
+  {
+    opacity: 1,
+    offset: 0.5
   }
-}
+]
 
-.zoomIn {
-  animation-name: zoomIn;
-}
+export default zoomIn
