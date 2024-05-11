@@ -1,11 +1,12 @@
 // https://github.com/animate-css/animate.css/blob/main/source/zooming_exits/zoomOutDown.css
 
 const zoomOutDown = [
-  40% {
+  {
     opacity: 1,
     transform: `scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0)`,
     easing: `cubic-bezier(0.55, 0.055, 0.675, 0.19)`,
     transformOrigin: `center bottom`,
+    offset: 0.4,
   },
   {
     opacity: 0,

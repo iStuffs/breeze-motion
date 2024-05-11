@@ -6,7 +6,7 @@ const zoomOut =[
   },
    {
     opacity: 0,
-    transform: scale3d(0.3, 0.3, 0.3),
+    transform: `scale3d(0.3, 0.3, 0.3)`,
     offset: 0.5,
   },
   {
