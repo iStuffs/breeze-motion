@@ -1,15 +1,15 @@
-@keyframes lightSpeedOutLeft {
-  from {
-    opacity: 1;
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/lightspeed/lightSpeedOutLeft.css
 
-  to {
-    transform: translate3d(-100%, 0, 0) skewX(-30deg);
-    opacity: 0;
+const lightSpeedOutLeft = [
+  {
+    opacity: 1,
+    easing: 'ease-in',
+  },
+  {
+    transform: `translate3d(-100%, 0, 0) skewX(-30deg)`,
+    opacity: 0,
+    easing: 'ease-in',
   }
-}
+]
 
-.lightSpeedOutLeft {
-  animation-name: lightSpeedOutLeft;
-  animation-timing-function: ease-in;
-}
+export default lightSpeedOutLeft

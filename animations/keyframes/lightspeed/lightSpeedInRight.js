@@ -1,24 +1,26 @@
-@keyframes lightSpeedInRight {
-  from {
-    transform: translate3d(100%, 0, 0) skewX(-30deg);
-    opacity: 0;
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/lightspeed/lightSpeedInRight.css
 
-  60% {
-    transform: skewX(20deg);
-    opacity: 1;
+const lightSpeedInRight = [
+  {
+    transform: `translate3d(100%, 0, 0) skewX(-30deg)`,
+    opacity: 0,
+    easing: 'ease-out',
+  },
+  {
+    transform: `skewX(20deg)`,
+    opacity: 1,
+    easing: 'ease-out',
+    offset: 0.6,
+  },
+  {
+    transform: `skewX(-5deg)`,
+    easing: 'ease-out',
+    offset: 0.8,
+  },
+  {
+    transform: `translate3d(0, 0, 0)`,
+    easing: 'ease-out',
   }
+]
 
-  80% {
-    transform: skewX(-5deg);
-  }
-
-  to {
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-.lightSpeedInRight {
-  animation-name: lightSpeedInRight;
-  animation-timing-function: ease-out;
-}
+export default lightSpeedInRight
