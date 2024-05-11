@@ -1,16 +1,15 @@
-@keyframes rotateInUpLeft {
-  from {
-    transform: rotate3d(0, 0, 1, 45deg);
-    opacity: 0;
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/rotating_entrances/rotateInUpLeft.css
 
-  to {
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
+const rotateInUpLeft = [
+  {
+    transform: `rotate3d(0, 0, 1, 45deg)`,
+    opacity: 0,
+    transformOrigin: `left bottom`,
+  },
+  {
+    transform: `translate3d(0, 0, 0)`,
+    opacity: 1,
   }
-}
+]
 
-.rotateInUpLeft {
-  animation-name: rotateInUpLeft;
-  transform-origin: left bottom;
-}
+export default rotateInUpLeft

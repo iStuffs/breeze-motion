@@ -1,16 +1,15 @@
-@keyframes rotateInUpRight {
-  from {
-    transform: rotate3d(0, 0, 1, -90deg);
-    opacity: 0;
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/rotating_entrances/rotateInUpRight.css
 
-  to {
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
+const rotateInUpRight =[
+  {
+    transform: `rotate3d(0, 0, 1, -90deg)`,
+    opacity: 0,
+    transformOrigin: `right bottom`,
+  },
+  {
+    transform: `translate3d(0, 0, 0)`,
+    opacity: 1,
   }
-}
+]
 
-.rotateInUpRight {
-  animation-name: rotateInUpRight;
-  transform-origin: right bottom;
-}
+export default rotateInUpRight
