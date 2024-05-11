@@ -1,15 +1,14 @@
-@keyframes fadeInRight {
-  from {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/fading_entrances/fadeInRight.css
 
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
+const fadeInRight = [
+  {
+    opacity: 0,
+    transform: `translate3d(100%, 0, 0)`,
+  },
+  {
+    opacity: 1,
+    transform: `translate3d(0, 0, 0)`,
   }
-}
+]
 
-.fadeInRight {
-  animation-name: fadeInRight;
-}
+export default fadeInRight
