@@ -1,14 +1,13 @@
-@keyframes slideOutDown {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
+// https://github.com/animate-css/animate.css/blob/main/source/sliding_exits/slideOutDown.css
 
-  to {
-    visibility: hidden;
-    transform: translate3d(0, 100%, 0);
+const slideOutDown = [
+  {
+    transform: `translate3d(0, 0, 0)`,
+  },
+  {
+    visibility: `hidden`,
+    transform: `translate3d(0, 100%, 0)`,
   }
-}
+]
 
-.slideOutDown {
-  animation-name: slideOutDown;
-}
+export default slideOutDown
