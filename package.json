@@ -2,8 +2,8 @@
   "name": "breeze-motion",
   "type": "module",
   "version": "0.0.1",
-  "main": "./animations/keyframes/index.js",
-  "module": "./animations/keyframes/index.js",
+  "main": "animations/keyframes/index.js",
+  "module": "animations/keyframes/index.js",
   "description": "Animate.css keyframes for web animation API",
   "repository": {
     "type": "git",
@@ -11,9 +11,9 @@
   },
   "keywords": [
     "keyframes",
-    "web",
-    "animation",
-    "API"
+    "waapi",
+    "web-animation-api",
+    "animate.css"
   ],
   "author": "iStuffs - Samuel DIDIER-LAURENT",
   "license": "ISC",
@@ -30,12 +30,13 @@
   },
   "dependencies": {
     "change-case": "^5.4.4",
-    "nuxt": "^3.11.2",
+    "sass": "^1.77.2",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@vueuse/core": "^10.9.0",
-    "@vueuse/nuxt": "^10.9.0"
+    "@vueuse/nuxt": "^10.9.0",
+    "nuxt": "^3.11.2"
   }
 }
