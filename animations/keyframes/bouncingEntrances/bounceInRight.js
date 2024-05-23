@@ -1,8 +1,6 @@
 // https://github.com/animate-css/animate.css/blob/main/source/bouncing_entrances/bounceInRight.css
 
 const bounceInRight = [
-
-
   {
     opacity: 0,
     transform: `translate3d(3000px, 0, 0) scaleX(3)`,
