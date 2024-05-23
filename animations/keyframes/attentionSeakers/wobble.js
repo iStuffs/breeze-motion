@@ -25,7 +25,7 @@ const wobble= [
     offset: 0.75,
   },
   {
-    transform: t`ranslate3d(0, 0, 0)`,
+    transform: `translate3d(0, 0, 0)`,
   }
 ]
 

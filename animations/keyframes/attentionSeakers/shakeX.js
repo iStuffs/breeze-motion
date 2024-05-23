@@ -2,7 +2,7 @@
 
 const shakeX  = [
   {
-    transform: `translateZ(0)`,
+    transform: `translate3d(0, 0, 0)`,
   },
   {
     transform: `translate3d(-10px, 0, 0)`,
@@ -41,7 +41,7 @@ const shakeX  = [
     offset: 0.9,
   },
   {
-    transform: `translateZ(0)`,
+    transform: `translate3d(0, 0, 0)`,
   }
 ]
 

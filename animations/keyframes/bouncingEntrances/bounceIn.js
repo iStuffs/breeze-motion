@@ -34,4 +34,5 @@ const bounceIn = [
   }
 ]
 
+// animation-duration: calc(var(--animate-duration) * 0.75);
 export default bounceIn
