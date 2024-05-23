@@ -1,7 +1,7 @@
 {
   "name": "breeze-motion",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "animations/keyframes/index.js",
   "module": "animations/keyframes/index.js",
   "description": "Animate.css keyframes for web animation API",
